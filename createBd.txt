@@ -1,0 +1,7 @@
+CREATE DATABASE crud;
+use crud;
+CREATE TABLE tarefas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+    titulo TEXT, 
+    descricao TEXT,
+    dataCriacao DATE DEFAULT CURRENT_TIMESTAMP
